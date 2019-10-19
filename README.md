@@ -41,3 +41,13 @@ A few notations in the code don't match the notations from the paper. In particu
 - `tune_lr.py` allows to tune the learning rate for a network architecture/data set/optimizer configuration.
 - `main_experiments.py` contains the experiments presented in the paper, section 6.
 
+# Reference
+If you use this code, please cite the following [paper](http://proceedings.mlr.press/v97/karimireddy19a/karimireddy19a-supp.pdf)
+
+    @inproceedings{karimireddy19a,
+      title = 	 {Error Feedback Fixes {SignSGD} and other Gradient Compression Schemes},
+      author = 	 {Karimireddy, Sai Praneeth and Rebjock, Quentin and Stich, Sebastian U. and Jaggi, Martin},
+      booktitle = 	 {ICML - Proceedings of the 36th International Conference on Machine Learning},
+      pages = 	 {3252--3261},
+      year = 	 {2019}
+    }
